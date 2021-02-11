@@ -5,6 +5,7 @@ h1 {
 #topCard{
     position: fixed;
     color: blueviolet;
+    height: 200px;
 }
 
 /*Checking gitconfig*/
