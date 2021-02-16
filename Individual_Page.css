@@ -17,22 +17,24 @@
 
 #name {
     margin-right: 30px;
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 #manageRequest {
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 1.5em;
+    font-size: 1.0em;
     border: solid black 2px;
+    cursor: pointer;
 }
 
 #request {
     margin-right: 30px;
     margin-bottom: 10px;
-    font-size: 1.5em;
+    font-size: 1.0em;
     background-color: #D7F80D;
     border: solid black 2px;
+    cursor: pointer;
 }
 
 
