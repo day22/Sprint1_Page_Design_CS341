@@ -1,56 +1,84 @@
+<!-- Authors: Matthew Groh, Aidan Day, Blake Nygren, Jack Volonte -->
+
 <html>
 
   <head>
     <link rel="stylesheet" href="Individual_Page.css">
   </head>
 
-  <header>
-    <h1 id="name" style="text-align:right">DSLR Camera</h1>
-  </header>
+  <!--Header card - absolutely fixed to the top - holds buttons and name-->
+  <div class="headCard">
+    <button id="manageRequest">Manage Your Request</button>
+    <h1 id="name">DSLR Camera</h1>
+    <button id="request">Add Item to Request</button>
+  </div>
 
-  <section id="product-info">
-    <section id="images">
-      <div>
-        <img src="https://static.bhphoto.com/images/images2500x2500/canon_1263c006_eos_80d_dslr_camera_1455767513000_1225877.jpg"
-		alt="dslr_camera" class="center">
-      </div>
+  
+  <div id="main_image_div">
+    <img src="https://static.bhphoto.com/images/images2500x2500/canon_1263c006_eos_80d_dslr_camera_1455767513000_1225877.jpg"
+alt="dslr_camera" class="main_image">
+  </div>
+
+<!--Info about the products - includes images and text in 2 columns-->
+  <div id="product-info">
+
+    <div id="images_div">
+
       <div id="sub-images">
         <div class="alt-images">
           <img src="https://static.bhphoto.com/images/images2500x2500/canon_1263c006_eos_80d_dslr_camera_1455767513000_1225877.jpg"
 		alt="dslr_camera" class="sub-img-style" >
         </div>
+
         <div class="alt-images">
           <img src="https://static.bhphoto.com/images/images2500x2500/canon_1263c006_eos_80d_dslr_camera_1455767513000_1225877.jpg"
 		alt="dslr_camera" class="sub-img-style">
         </div>
+
         <div class="alt-images">
           <img src="https://static.bhphoto.com/images/images2500x2500/canon_1263c006_eos_80d_dslr_camera_1455767513000_1225877.jpg"
 		alt="dslr_camera" class="sub-img-style">
         </div>
+
       </div>
 
-    </section>
-    <section id="product-stats">
+    </div>
+
+    <div id="product-stats">
+
       <div>
-        <h1>Model/Brand</h1>
+        <h1 class="stat_title">Model/Brand</h1>
         <p id="item-brand">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit saepe veniam, vero in deserunt laudantium suscipit repellat similique nemo nam numquam. Atque temporibus maiores impedit suscipit inventore, enim esse sed.</p>
       </div>
+
       <div>
-        <h1>Categories</h1>
-        <p id="item-categories">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit saepe veniam, vero in deserunt laudantium suscipit repellat similique nemo nam numquam. Atque temporibus maiores impedit suscipit inventore, enim esse sed.</p>
+        <h1 class="stat_title">Categories</h1>
+        <p id="item-categories"><u>Camera</u>, <u>Video</u>, <u>Photography</u></p>
       </div>
+
       <div>
-        <h1>Uses</h1>
+        <h1 class="stat_title">Uses</h1>
         <p id="item-uses">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit saepe veniam, vero in deserunt laudantium suscipit repellat similique nemo nam numquam. Atque temporibus maiores impedit suscipit inventore, enim esse sed.</p>
       </div>
+
       <div>
-        <h1>Accessories</h1>
+        <h1 class="stat_title">Accessories</h1>
         <p id="item-accessories">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit saepe veniam, vero in deserunt laudantium suscipit repellat similique nemo nam numquam. Atque temporibus maiores impedit suscipit inventore, enim esse sed.</p>
       </div>
-    </section>
-  </section>  
-  <div id="description">
-    <h1>Description: </h1>
+
+    </div>
+
+  </div>  
+
+
+
+  <div id="description_div">
+    <h1 class="stat_title">Description</h1>
     <p id="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac turpis egestas integer eget. Cursus metus aliquam eleifend mi. Lacus sed viverra tellus in hac habitasse. Arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales. Turpis egestas integer eget aliquet nibh praesent. Facilisis leo vel fringilla est ullamcorper. Vivamus at augue eget arcu dictum varius duis at. Egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices. Id ornare arcu odio ut sem nulla pharetra. At erat pellentesque adipiscing commodo elit at. In dictum non consectetur a erat nam. Lectus sit amet est placerat. Tempus urna et pharetra pharetra massa massa ultricies mi quis. Risus ultricies tristique nulla aliquet.</p>
   </div>
+
+
+  <br><br><br><br><br><br>
+
+
 </html>

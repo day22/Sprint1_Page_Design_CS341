@@ -1,53 +1,110 @@
-h1 {
-    color:black;
-    font-size: 2.5em;
+/* Authors: Matthew Groh, Aidan Day, Blake Nygren, Jack Volonte */
+
+
+/* Header Elements */
+.headCard{
+    text-align: right;
+    height: 40%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: #9A00F5;
+    position: absolute;
+    z-index: 1;
+    border-bottom: solid black 2px;
 }
 
-#topCard{
-    position: fixed;
-    color: blueviolet;
-    height: 200px;
+#name {
+    margin-right: 30px;
+    font-size: 3em;
 }
 
+#manageRequest {
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 1.5em;
+    border: solid black 2px;
+}
+
+#request {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    background-color: #D7F80D;
+    border: solid black 2px;
+}
+
+
+/* Body Elements */
 #product-info{
     display: flex;
     height: auto;
     width: 100%;
+    
 }
-#images {
+
+.stat_title {
+    color: #9A00F5;
+}
+
+#images_div {
     background-color: white;    
-    width: 40%;
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 50px;
 }
-.center {
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+.main_image {
+    height: auto;
+    width: 30%;
+    position: absolute;
+    margin-left: 50px;
+    border: black 2px solid;
+    margin-top: 100px;
+    z-index: 2;
 }
+
+#main_image_div{
+    height: 150px;
+}
+
+#item-categories{
+    cursor: pointer;
+    color: blue;
+}
+
 #sub-images {
     display: flex;
+    margin-top: 200px;
 }
 
 .alt-images {
-    width: 33%;
-    border-radius: 20em;
     border-color: gray;
 }
 .sub-img-style {
-    width: 55%;
+    width: 50%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     border: 2px solid #000000;
+    cursor: pointer;
 }
 
 #product-stats {
     width: 50%;
-    background-color: blueviolet;
-    padding: 2em;
-}
-#description {
-    width: 100%;
+    margin-top: 7%;
+    
 }
 
-/*Checking gitconfig*/
+#description_div {
+    width: 100%;
+    margin-left: 50px;
+    
+}
+
+#item-description {
+    margin-right: 50px;
+}
+
+
+
+
