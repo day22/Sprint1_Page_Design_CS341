@@ -8,16 +8,21 @@
     width: 100%;
     left: 0;
     top: 0;
-    right: 0;
     background-color: #9A00F5;
     position: absolute;
     z-index: 1;
     border-bottom: solid black 2px;
 }
 
+#back {
+    z-index: 3;
+    position: absolute;
+}
+
 #name {
     margin-right: 30px;
     font-size: 3.5em;
+    
 }
 
 #manageRequest {
@@ -26,6 +31,7 @@
     font-size: 1.0em;
     border: solid black 2px;
     cursor: pointer;
+    
 }
 
 #request {
