@@ -113,6 +113,24 @@
     margin-right: 50px;
 }
 
+.column {
+    float: left;
+    width: 15.00%;
+    padding: 15px;
+}
+
+.column_right {
+    float: left;
+    transform: scaleX(-1);
+    width: 15.00%;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 
 
