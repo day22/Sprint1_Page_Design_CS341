@@ -2,14 +2,15 @@
 
 
 /* Header Elements */
-.headCard{
+
+.headCard {
     text-align: right;
     height: 40%;
     width: 100%;
     left: 0;
     top: 0;
     background-color: #9A00F5;
-    position: absolute;
+    position: relative;
     z-index: 1;
     border-bottom: solid black 2px;
 }
@@ -22,7 +23,6 @@
 #name {
     margin-right: 30px;
     font-size: 3.5em;
-    
 }
 
 #manageRequest {
@@ -31,7 +31,6 @@
     font-size: 1.0em;
     border: solid black 2px;
     cursor: pointer;
-    
 }
 
 #request {
@@ -45,11 +44,11 @@
 
 
 /* Body Elements */
-#product-info{
+
+#product-info {
     display: flex;
     height: auto;
     width: 100%;
-    
 }
 
 .stat_title {
@@ -57,7 +56,7 @@
 }
 
 #images_div {
-    background-color: white;    
+    background-color: white;
     width: 50%;
     margin-top: 200px;
     margin-left: 50px;
@@ -73,11 +72,11 @@
     z-index: 2;
 }
 
-#main_image_div{
+#main_image_div {
     height: 150px;
 }
 
-#item-categories{
+#item-categories {
     cursor: pointer;
     color: blue;
 }
@@ -90,6 +89,7 @@
 .alt-images {
     border-color: gray;
 }
+
 .sub-img-style {
     width: 50%;
     display: block;
@@ -100,13 +100,11 @@
 #product-stats {
     width: 50%;
     margin-top: 7%;
-    
 }
 
 #description_div {
     width: 100%;
     margin-left: 50px;
-    
 }
 
 #item-description {
@@ -131,6 +129,3 @@
     clear: both;
     display: table;
 }
-
-
-
