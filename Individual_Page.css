@@ -10,7 +10,7 @@
     left: 0;
     top: 0;
     background-color: #9A00F5;
-    position: relative;
+    position: absolute; /*must be absolute*/
     z-index: 1;
     border-bottom: solid black 2px;
 }
@@ -74,11 +74,6 @@
 
 #main_image_div {
     height: 150px;
-}
-
-#item-categories {
-    cursor: pointer;
-    color: blue;
 }
 
 #sub-images {
